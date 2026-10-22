@@ -3,7 +3,7 @@ export const profile = {
   role: 'Junior Java Developer',
   tagline:
     'Fullstack and microservices apps with Spring Boot, MySQL, React, and Docker.',
-  location: 'Sanchang Township, Yangon',
+  location: 'Sanchaung Township, Yangon',
   email: 'bhonepyaehmuee33@gmail.com',
   phone: '+95 9 250 182 268',
   resumeUrl: '/resume.pdf',
