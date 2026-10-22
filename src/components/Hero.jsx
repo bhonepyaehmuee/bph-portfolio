@@ -26,6 +26,15 @@ export default function Hero() {
               Email me
             </a>
           </div>
+
+          <div className="hero__socials">
+            <a href={profile.linkedin} target="_blank" rel="noreferrer">
+              LinkedIn
+            </a>
+            <a href={profile.github} target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+          </div>
         </div>
       </div>
     </section>

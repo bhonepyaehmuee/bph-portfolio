@@ -9,7 +9,15 @@ export default function Footer() {
         <p>
           © {year} {profile.name}
         </p>
-        <p>Junior Java Developer · Yangon</p>
+        <p className="footer__links">
+          <a href={profile.linkedin} target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
+          <span aria-hidden="true">·</span>
+          <a href={profile.github} target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+        </p>
       </div>
     </footer>
   )
