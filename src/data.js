@@ -6,7 +6,6 @@ export const profile = {
   location: 'Sanchaung Township, Yangon',
   email: 'bhonepyaehmuee33@gmail.com',
   phone: '+95 9 250 182 268',
-  // File in public/: Bhone Pyae Hmuee's Resume.pdf
   resumeUrl: encodeURI("/Bhone Pyae Hmuee's Resume.pdf"),
   resumeLabel: "Bhone Pyae Hmuee's Resume",
   resumeFileName: "Bhone Pyae Hmuee's Resume.pdf",
