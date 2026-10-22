@@ -47,7 +47,7 @@ export default function Navbar() {
             download={profile.resumeFileName}
             onClick={closeMenu}
           >
-            {profile.resumeLabel}
+            Download Resume
           </a>
         </nav>
       </div>
