@@ -13,8 +13,12 @@ export default function Contact() {
           <a className="btn" href={`mailto:${profile.email}`}>
             {profile.email}
           </a>
-          <a className="btn btn--outline" href={profile.resumeUrl} download>
-            Download resume
+          <a
+            className="btn btn--outline"
+            href={profile.resumeUrl}
+            download={profile.resumeFileName}
+          >
+            Download {profile.resumeLabel}
           </a>
         </div>
 

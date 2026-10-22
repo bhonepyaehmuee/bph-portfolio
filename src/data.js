@@ -6,7 +6,9 @@ export const profile = {
   location: 'Sanchaung Township, Yangon',
   email: 'bhonepyaehmuee33@gmail.com',
   phone: '+95 9 250 182 268',
-  resumeUrl: '/resume.pdf',
+  resumeUrl: '/Bhone-Pyae-Hmuee-Resume.pdf',
+  resumeLabel: "Bhone Pyae Hmuee's Resume",
+  resumeFileName: 'Bhone-Pyae-Hmuee-Resume.pdf',
   github: 'https://github.com/bhonepyaehmuee',
   linkedin: 'https://www.linkedin.com/in/bhone-pyae-hmuee-87479934b',
   languages: [

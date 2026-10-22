@@ -44,10 +44,10 @@ export default function Navbar() {
           <a
             className="btn btn--small"
             href={profile.resumeUrl}
-            download
+            download={profile.resumeFileName}
             onClick={closeMenu}
           >
-            Resume
+            {profile.resumeLabel}
           </a>
         </nav>
       </div>
