@@ -59,10 +59,17 @@ export const skills = [
 
 export const education = [
   {
-    degree: 'Advanced Diploma in Information Technology',
+    degree: 'Bachelor of Science (Mathematics)',
+    school: 'Yangon University of Distance Education',
+    detail: '',
+    period: '2019 — 2024',
+  },
+  {
+    
+    degree: 'Advanced Certificate in Information Technology',
     school: 'Software Engineering · NIIT India',
     detail: 'GPA 3.75',
-    period: '2024',
+    period: '2020',
   },
   {
     degree: 'Honors Diploma in Information Technology',
@@ -71,18 +78,19 @@ export const education = [
     period: '2023',
   },
   {
-    degree: 'Advanced Certificate in Information Technology',
+    degree: 'Advanced Diploma in Information Technology',
     school: 'Software Engineering · NIIT India',
     detail: 'GPA 3.75',
-    period: '2020',
+    period: '2024',
   },
   {
     degree: 'Bachelor of Science (Mathematics)',
     school: 'Yangon University of Distance Education',
     detail: '',
-    period: '2019 — 2024',
+    period: '2019 — 2025',
   },
 ]
+ 
 
 export const projects = [
   {
