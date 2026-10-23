@@ -62,7 +62,7 @@ export const education = [
     degree: 'Bachelor of Science (Mathematics)',
     school: 'Yangon University of Distance Education',
     detail: '',
-    period: '2019 — 2024',
+    period: '2019 — 2025',
   },
   {
     
@@ -82,12 +82,6 @@ export const education = [
     school: 'Software Engineering · NIIT India',
     detail: 'GPA 3.75',
     period: '2024',
-  },
-  {
-    degree: 'Bachelor of Science (Mathematics)',
-    school: 'Yangon University of Distance Education',
-    detail: '',
-    period: '2019 — 2025',
   },
 ]
  
