@@ -57,6 +57,21 @@ export const skills = [
   },
 ]
 
+export const experience = [
+  {
+    role: 'Test Administrator',
+    company: 'LinuxLab Company Ltd',
+    type: 'Part-time',
+    period: 'December 2024 — Present',
+    points: [
+      'Administered secure certification exams for Pearson VUE, Kryterion, PSI (IT), PSI (UKVI), ACIFMA, and Red Hat (remote exams)',
+      'Prepared exam workstations, verified candidate identity, and enforced testing policies and procedures',
+      'Monitored in-person and remote exam sessions, handled technical issues, and reported incidents to vendors',
+      'Maintained exam integrity and provided candidate support throughout the testing process',
+    ],
+  },
+]
+
 export const education = [
   {
     degree: 'Bachelor of Science (Mathematics)',

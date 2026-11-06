@@ -541,13 +541,13 @@ ul {
   padding-left: 1.15rem;
 }
 
-.timeline li {
+.timeline > li {
   position: relative;
   display: grid;
   gap: 0.25rem;
 }
 
-.timeline li::before {
+.timeline > li::before {
   content: '';
   position: absolute;
   left: calc(-1.15rem - 5px);
@@ -568,6 +568,34 @@ ul {
 
 .timeline h3 {
   font-size: 1.05rem;
+}
+
+.timeline__meta {
+  font-family: var(--sans, inherit);
+  font-weight: 500;
+  color: var(--muted, #5a6a7a);
+}
+
+.timeline__points {
+  display: grid;
+  gap: 0.35rem;
+  margin-top: 0.55rem;
+  padding: 0;
+  list-style: none;
+}
+
+.timeline__points li {
+  position: relative;
+  padding-left: 0.9rem;
+  font-size: 0.98rem;
+  color: var(--muted, #5a6a7a);
+}
+
+.timeline__points li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
 }
 
 .projects {
